@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/app.ts",
   "scripts": {
-    "dev": "nodemon",
-    "build": "tsc"
+    "dev": "node init && nodemon",
+    "build": "node init && tsc"
   },
   "keywords": [],
   "author": "",
